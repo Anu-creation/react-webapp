@@ -1,4 +1,3 @@
-
 import React,{useState} from "react";
 import { createRoot } from "react-dom/client";
 import SearchArea from "./searchArea";
@@ -27,10 +26,6 @@ const App = () => {
 
   // return React.createElement("div", {}, [
   //   React.createElement("h2", {}, "WeTube"),
-  //   React.createElement(Video, {
-  //     title: "the best video on youtube",
-  //     dateadded: "4 days ago",
-  //     channel: "news channel",
   //   }),
   //   React.createElement(Video, {
   //     title: "the cool video on youtube",
@@ -44,6 +39,9 @@ const App = () => {
   //   }),
   // ]);
 };
+
+// this is for advance version of react
+//their is some different code that is use for render the result
 
 // ReactDOM.render(React.createElement(App), document.getElementById("root"));
 const root = createRoot(document.getElementById("root"));
